@@ -1,0 +1,162 @@
+*{
+    font-family: "Segoe WP";
+}
+* {
+    color: gray;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.top-menu {
+    list-style: none;
+
+}
+
+.top-menu li a {
+    text-decoration: none;
+    margin-right: 50px;
+    padding-bottom: 14px;
+    color: gray;
+    font-size: 20px;
+}
+.top-menu li a:hover{
+    border-bottom: 2px solid #3C86FF;
+}
+.logo  {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+
+}
+
+.container.container__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.top-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+}
+.slider {
+    background: url("../img/top-back.png") no-repeat;
+    height: 500px;
+    background-size: cover;
+
+}
+.slider-1 {
+    padding-top: 40px;
+display: flex;
+justify-content: flex-start;
+flex-flow: row nowrap;
+    align-items: center;
+    color: white;
+}
+.slider-1 h1 {
+font-weight: lighter;
+    color: white;
+}
+.slider-1 h3 {
+    font-weight: lighter;
+    color: white;
+}
+
+.iphone img {
+    max-width: 100%;
+    padding-right: 80px;
+}
+.button {
+    color: white;
+    max-width: 150px;
+    background-color: #3C86FF;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left:10px;
+}
+
+.menu-menu {
+    list-style: none;
+    display: flex ;
+    text-align: center;
+    font-size: 19px;
+
+}
+.menu-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3C86FF;
+    font-weight: bold;
+    font-size: 130%;
+}
+.menu-menu li {
+    text-align: center;
+}
+.menu-menu span {
+    display: block;
+}
+.circle__blue {
+    border-radius: 50%;
+    background-color: #3C86FF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle__red {
+    border-radius: 50%;
+    background-color: rgb(217, 71, 72);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.circle__yellou {
+    border-radius: 50%;
+    background-color: rgb(235, 187, 17);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bottom {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+}
+.main-bottom h1 {
+    font-size: 40px;
+}
+.main-bottom-1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.active {
+    border-bottom: 2px solid blue;
+    padding-bottom: 14px;
+}
+footer p {
+ text-align: center;
+}
