@@ -1,0 +1,289 @@
+
+body {
+    background-color: lightgray;
+}
+*{
+    font-family: "Montserrat" ;
+}
+a {
+    text-decoration: none;
+    color:#1f7372 ;
+}
+.container {
+    color: #1f7372;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1110px;
+    height: 700px;
+}
+.container__left {
+    position: absolute;
+    left: 50px;
+    background-color: rgb(55, 176, 174) ;
+    width: 465px;
+    height: 610px;
+}
+.camera-foto {
+    position: relative;
+    right: 50px;
+    top: 60px;
+}
+.FUJIFILM {
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.container__rigth {
+    position: absolute;
+    left: 515px;
+    background-color: rgb(255, 255, 255);
+    width: 480px;
+    height: 700px;
+    padding-left: 85px;
+    padding-top: 75px;
+}
+.container__rigth-content {
+
+}
+.container__rigth-content p {
+    margin-bottom: 20px;
+}
+h3 {
+    margin-top: 5px;
+}
+.container__rigth-text ul {
+    padding-left: 0 ;
+}
+.container__rigth-text {
+    margin-top: 45px;
+}
+.container__rigth-text ul li {
+    list-style: none;
+}
+li {
+    margin-top: 5px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+li:before {
+    content:"";
+    background: #37B0AE;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.meny {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.meny a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.counter {
+    display: flex;
+
+}
+.counter1 , .counter3 {
+    width: 40px;
+    height: 39px;
+    border: 1px solid #1f7372;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter2 input {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #1f7372;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    color: #1f7372;
+}
+
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price__new {
+    font-size: 30px;
+    margin-right: 15px;
+}
+.price__old {
+    font-weight: normal;
+    font-size: 10px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.buttons a {
+    text-decoration: none;
+
+}
+.button__left {
+    background: rgb(55, 176, 174);
+    border: 0;
+    width: 200px ;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button__left a {
+    color: white;
+}
+.button__right {
+    background: white;
+    border: 1px solid #1f7372 ;
+    width: 200px;
+    height: 43px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container__center {
+    position: absolute;
+    top: 220px;
+    left: 468px;
+    z-index: 5;
+    width: 96px;
+    height: 297px;
+
+}
+.container__center img {
+    width: 96px;
+    height: 97px;
+    background-color: rgba(255, 255, 255, 0.631);
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.43);
+
+}
+.container__center-item1:hover {
+    border: 2px solid #1f7372;
+    z-index: 10;
+    cursor: pointer;
+}
+.container__center-item2:hover {
+    border: 2px solid #1f7372;
+    z-index: 10;
+    cursor: pointer;
+}
+.container__center-item3:hover {
+    border: 2px solid #1f7372;
+    z-index: 10;
+    cursor: pointer;
+}
+.container__center-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.container__center-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.container__center-item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        position: relative;
+        margin: 0 auto;
+        width: 565px;
+        height: 1800px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .container__center, .container__rigth, .container__left {
+        position: absolute;
+        left: 0;
+    }
+
+    .container__left {
+        width: 565px;
+        top: 0;
+
+    }
+
+    .container__left-content {
+        position: relative;
+    }
+
+    .camera-foto {
+        position: absolute;
+        right: 70px;
+        top: 60px;
+    }
+
+    .FUJIFILM {
+        position: absolute;
+        left: 25px;
+        top: 10px;
+    }
+
+    .container__center {
+        width: 565px;
+        height: 185px;
+        top: 610px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .container__center img {
+        width: 185px;
+        height: 185px;
+    }
+    .container__center-item3 img {
+        width: 195px;
+    }
+
+    .container__rigth {
+        top: 795px;
+    }
+    .container__center-item1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .container__center-item2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .container__center-item3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+}
+
+

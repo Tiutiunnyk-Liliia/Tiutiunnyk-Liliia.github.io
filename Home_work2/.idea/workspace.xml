@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57daa8ba-1fee-46e6-bb97-619bb7c9ed71" name="Default Changelist" comment="" />
+    <list default="true" id="845bbc67-fe0a-42df-bc8b-f2b1e5f4c5fe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,21 +21,12 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1SqAufe3LFM40zrmMZKfMz6ejxT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1TR1aIwVhQOaQIlqewB20KsefV6" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../square" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Курсы\Projects\Home_work1\fonts" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,29 +45,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57daa8ba-1fee-46e6-bb97-619bb7c9ed71" name="Default Changelist" comment="" />
-      <created>1572280975847</created>
+      <changelist id="845bbc67-fe0a-42df-bc8b-f2b1e5f4c5fe" name="Default Changelist" comment="" />
+      <created>1573408156045</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572280975847</updated>
-      <workItem from="1572280977179" duration="5791000" />
-      <workItem from="1572716234220" duration="25553000" />
-      <workItem from="1573070153251" duration="45000" />
+      <updated>1573408156045</updated>
+      <workItem from="1573408157964" duration="2036000" />
+      <workItem from="1573634500330" duration="46000" />
+      <workItem from="1573749647355" duration="5736000" />
+      <workItem from="1573755462852" duration="16897000" />
+      <workItem from="1574067359696" duration="19652000" />
+      <workItem from="1574163038020" duration="1462000" />
+      <workItem from="1574333220400" duration="638000" />
+      <workItem from="1574418301971" duration="4536000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

@@ -65,6 +65,7 @@ font-weight: lighter;
 .slider-1 h3 {
     font-weight: lighter;
     color: white;
+    width: 200px;
 }
 
 .iphone img {
@@ -159,4 +160,72 @@ font-weight: lighter;
 }
 footer p {
  text-align: center;
+}
+
+@media (max-width: 700px ) {
+    .box {
+        width: 500px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .menu-menu{
+        display: block;
+    }
+    .menu__block {
+        margin-bottom: 20px;
+    }
+    .main-bottom-1 {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-bottom {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__top {
+        display: flex;
+        flex-flow: column;
+    }
+    .slider {
+        height: 420px;
+    }
+    .slider-1 {
+        padding-top: 18px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column-reverse;
+        align-items: center;
+        align-content: center;
+        color: white;
+        position: relative;
+    }
+    .iphone {
+        width: 270px;
+        position: absolute;
+        top: 62px;
+        left: 20px;
+    }
+    .slider-text h1 {
+        width: 201px;
+        position: absolute;
+        top: 0px;
+        left: 268px;
+    }
+    .slider-text h3 {
+        position: absolute;
+        top: 104px;
+        left: 270px;
+        width: 204px;
+    }
+    .slider-text a {
+        position: absolute;
+        top: 191px;
+        left: 262px;
+        width: 200px;
+
+    }
 }
