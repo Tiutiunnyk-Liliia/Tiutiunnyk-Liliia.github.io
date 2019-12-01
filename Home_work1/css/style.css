@@ -4,6 +4,10 @@
 * {
     color: gray;
 }
+body {
+    margin: 0;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1024px;
@@ -81,7 +85,6 @@ font-weight: lighter;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    margin-left:10px;
 }
 
 .menu-menu {
@@ -162,70 +165,79 @@ footer p {
  text-align: center;
 }
 
-@media (max-width: 700px ) {
+
+
+
+@media (max-width: 767px ) {
+
+    .top-menu {
+        width: 100%;
+        padding-left: 0;
+    }
+
+   .top-menu li a {
+    margin: 0;
+   padding-right:10px ;
+   }
+
     .box {
-        width: 500px;
+        width: 100%;
         position: relative;
         margin: 0 auto;
     }
-    .menu-menu{
-        display: block;
-    }
-    .menu__block {
-        margin-bottom: 20px;
-    }
-    .main-bottom-1 {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .main-bottom {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-    }
+
+
     .container__top {
         display: flex;
         flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
     }
     .slider {
-        height: 420px;
+        height: 100%;
     }
     .slider-1 {
-        padding-top: 18px;
-        display: flex;
-        justify-content: flex-start;
-        flex-flow: column-reverse;
-        align-items: center;
-        align-content: center;
-        color: white;
-        position: relative;
+        flex-flow: row wrap;
+    }
+    .slider-text {
+        padding-bottom: 20px;
+        padding-left: 40px;
     }
     .iphone {
-        width: 270px;
-        position: absolute;
-        top: 62px;
-        left: 20px;
+        width: 100%;
+        text-align: center;
     }
-    .slider-text h1 {
-        width: 201px;
-        position: absolute;
-        top: 0px;
-        left: 268px;
+    .iphone img {
+        padding: 0;
     }
-    .slider-text h3 {
-        position: absolute;
-        top: 104px;
-        left: 270px;
-        width: 204px;
+    .menu ul {
+        padding: 0;
     }
-    .slider-text a {
-        position: absolute;
-        top: 191px;
-        left: 262px;
-        width: 200px;
+    .menu-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu__block {
+        padding-bottom: 20px;
+    }
+    .main-bottom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .main-bottom h1 {
+        text-align: center;
+    }
+    .main-bottom-1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cart img {
+        max-width: 100%;
+    }
 
-    }
 }

@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +61,9 @@
       <workItem from="1573657795322" duration="4351000" />
       <workItem from="1573934119609" duration="6986000" />
       <workItem from="1574182838385" duration="32000" />
+      <workItem from="1575018475530" duration="869000" />
+      <workItem from="1575051920103" duration="601000" />
+      <workItem from="1575104787361" duration="143000" />
     </task>
     <servers />
   </component>

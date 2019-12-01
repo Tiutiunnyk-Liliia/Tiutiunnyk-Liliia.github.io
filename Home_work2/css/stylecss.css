@@ -1,6 +1,7 @@
 
 body {
     background-color: lightgray;
+    margin: 0;
 }
 *{
     font-family: "Montserrat" ;
@@ -16,7 +17,7 @@ a {
     align-items: center;
     position: relative;
     width: 1110px;
-    height: 700px;
+    height: 800px;
 }
 .container__left {
     position: absolute;
@@ -44,9 +45,6 @@ a {
     height: 700px;
     padding-left: 85px;
     padding-top: 75px;
-}
-.container__rigth-content {
-
 }
 .container__rigth-content p {
     margin-bottom: 20px;
@@ -210,80 +208,84 @@ li:before {
 }
 
 
-@media (max-width: 800px) {
-    .container {
-        position: relative;
-        margin: 0 auto;
-        width: 565px;
-        height: 1800px;
-        display: flex;
-        flex-flow: column;
-    }
+@media (max-width: 1024px) {
 
-    .container__center, .container__rigth, .container__left {
-        position: absolute;
-        left: 0;
+    .container {
+        width: 768px;
     }
 
     .container__left {
-        width: 565px;
-        top: 0;
-
+        position: absolute;
+        width: 42%;
+        left: 0;
     }
-
-    .container__left-content {
-        position: relative;
-    }
-
     .camera-foto {
-        position: absolute;
-        right: 70px;
-        top: 60px;
-    }
-
-    .FUJIFILM {
-        position: absolute;
-        left: 25px;
-        top: 10px;
-    }
-
-    .container__center {
-        width: 565px;
-        height: 185px;
-        top: 610px;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .container__center img {
-        width: 185px;
-        height: 185px;
-    }
-    .container__center-item3 img {
-        width: 195px;
+        max-width: 85%;
+        left: 3px;
     }
 
     .container__rigth {
-        top: 795px;
+        width: 50%;
+        padding-left: 70px ;
+        padding-top: 40px;
+        position: absolute;
+        left: 323px;
     }
-    .container__center-item1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
+    .container__rigth-content {
+        width: 95%;
     }
-    .container__center-item2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
-    }
-    .container__center-item3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
+    .container__center {
+        position: absolute;
+        left: 283px;
     }
 }
+
+@media (max-width: 767px) {
+    .container {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+}
+    .container__center, .container__rigth, .container__left {
+    position: static;
+    }
+    .container__rigth {
+        width: 100%;
+        padding-left: 0;
+        order: 1;
+    }
+    .container__rigth-content {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    .container__left {
+        width: 100%;
+        order: 3;
+    }
+
+    .camera-foto {
+        width: 90%;
+        position: relative;
+        top: 60px;
+        left: 10px;
+    }
+    .container__center {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: auto ;
+        order: 2;
+        background: white;
+
+    }
+
+}
+
+
 
 

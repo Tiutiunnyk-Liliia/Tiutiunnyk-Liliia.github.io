@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Home_work2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../square" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -63,6 +63,7 @@
       <workItem from="1574182915517" duration="8943000" />
       <workItem from="1574250666563" duration="317000" />
       <workItem from="1574251069381" duration="187000" />
+      <workItem from="1575011253916" duration="7208000" />
     </task>
     <servers />
   </component>
