@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07bcff5-49fa-4202-8fee-efe5124b2828" name="Default Changelist" comment="" />
+    <list default="true" id="b8e979ae-5392-4079-a12b-22932dea1aac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,27 +13,24 @@
       <executable />
     </execution>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ulich-progect" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Uy5f8mfiJu7LYLAT8tVpjlGo8v" />
+  <component name="ProjectId" id="1VT6iY4GR7XfPyRifspbyi9hz5L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../minimo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -54,18 +51,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e07bcff5-49fa-4202-8fee-efe5124b2828" name="Default Changelist" comment="" />
-      <created>1576316095139</created>
+      <changelist id="b8e979ae-5392-4079-a12b-22932dea1aac" name="Default Changelist" comment="" />
+      <created>1577264865924</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576316095139</updated>
-      <workItem from="1576316096969" duration="8424000" />
-      <workItem from="1576334392577" duration="23304000" />
-      <workItem from="1576658874704" duration="2767000" />
-      <workItem from="1576664526460" duration="7501000" />
-      <workItem from="1576683029735" duration="55906000" />
-      <workItem from="1577183170263" duration="10505000" />
-      <workItem from="1577263951972" duration="908000" />
+      <updated>1577264865924</updated>
+      <workItem from="1577264867585" duration="63584000" />
+      <workItem from="1578575437202" duration="1000" />
+      <workItem from="1578575797177" duration="11000" />
+      <workItem from="1578575903205" duration="9744000" />
     </task>
     <servers />
   </component>
