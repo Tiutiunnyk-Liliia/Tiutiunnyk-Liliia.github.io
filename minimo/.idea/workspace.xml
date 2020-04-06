@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8e979ae-5392-4079-a12b-22932dea1aac" name="Default Changelist" comment="" />
+    <list default="true" id="b8e979ae-5392-4079-a12b-22932dea1aac" name="Default Changelist" comment="minimo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/minimo_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/minimo_03.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +33,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -62,7 +66,15 @@
       <workItem from="1578575437202" duration="1000" />
       <workItem from="1578575797177" duration="11000" />
       <workItem from="1578575903205" duration="10877000" />
-      <workItem from="1578599674810" duration="576000" />
+      <workItem from="1578599674810" duration="1945000" />
+      <workItem from="1578646701016" duration="2000" />
+      <workItem from="1578819727120" duration="1000" />
+      <workItem from="1579451923583" duration="151000" />
+      <workItem from="1579452147314" duration="461000" />
+      <workItem from="1579452645605" duration="51124000" />
+      <workItem from="1580551708771" duration="194000" />
+      <workItem from="1586155023189" duration="1542000" />
+      <workItem from="1586156594618" duration="6481000" />
     </task>
     <task id="LOCAL-00001" summary="first commit)">
       <created>1578599742856</created>
@@ -71,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578599742856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit)">
+      <created>1578600270257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578600270257</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minimo_03">
+      <created>1578600569282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578600569282</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit)" />
+    <MESSAGE value="minimo_03" />
+    <MESSAGE value="minimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimo" />
   </component>
 </project>
