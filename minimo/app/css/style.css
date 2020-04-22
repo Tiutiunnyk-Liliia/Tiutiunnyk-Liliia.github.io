@@ -69,6 +69,11 @@ body {
   font-weight: 500;
   margin-bottom: 35px; }
 
+.text h1 a {
+  text-decoration: none;
+  font-family: "PlayfairDisplay-Regular";
+  color: #5b5b5b; }
+
 .text h4 {
   font-family: "Ubuntu-Light";
   font-size: 16px;
@@ -250,6 +255,11 @@ body {
   font-size: 24px;
   font-family: "PlayfairDisplay-Regular"; }
 
+.row-box h3 a {
+  text-decoration: none;
+  font-family: "PlayfairDisplay-Regular";
+  color: #5b5b5b; }
+
 .comment {
   margin-top: 65px;
   margin-bottom: 30px; }
@@ -304,6 +314,52 @@ body {
 .content-sidebar__left {
   width: 70%; }
 
+.social__03 {
+  width: 100%;
+  height: 100px; }
+
+.social__03 i {
+  margin-left: 15px; }
+
+.social__04 {
+  margin-bottom: 1px; }
+
+.social__04 i {
+  margin-right: 15px;
+  color: #b3b3b3; }
+
 .content-sidebar__right {
   width: 27%;
   margin-left: 30px; }
+
+.content-sidebar__right img {
+  max-width: 100%; }
+
+.content-sidebar__right a {
+  text-decoration: none;
+  color: #5b5b5b;
+  font-family: "PlayfairDisplay-Regular"; }
+
+.content-sidebar__right a h5 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 12px; }
+
+.content-sidebar__right a h6 {
+  font-family: "Ubuntu-Light";
+  font-weight: 500;
+  color: #b3b3b3;
+  font-size: 14px;
+  margin: 0; }
+
+.content-sidebar__right h4 {
+  font-size: 16px;
+  font-family: "Ubuntu-Light";
+  font-weight: 500;
+  color: #b3b3b3; }
+
+.content-sidebar__right ul {
+  padding-top: 0;
+  padding-left: 18px;
+  margin: 0;
+  margin-bottom: 70px; }
