@@ -485,6 +485,9 @@ header{
     .descr__head{
       position: relative;
       padding-right: 68px;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 40px;
       &.descr__head-sleep{
       padding-right: 215px;
       }
@@ -562,6 +565,9 @@ header{
   background-image: url(../img/shop-bg.png);
   background-repeat: no-repeat;
   background-position: right center;
+  .slider-arrows{
+    opacity: 0.25;
+  }
 }
 
 .shop__slider{
@@ -581,8 +587,10 @@ header{
 }
 
 .descr__head-shop{
-  max-width: 340px;
-  margin-bottom: 47px;
+  max-width: 480px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .shop__star-list{
@@ -656,8 +664,39 @@ header{
 
 .surfboard-box{
   position: absolute;
+}
+
+.surfboard__position--1{
   top: 215px;
   right: 40px;
+}
+.surfboard__position--2{
+  top: 313px;
+  left: -6px;
+}
+.surfboard__position--3{
+  bottom: 70px;
+  left: 52px;
+  .surfboard-box__content{
+    padding-left: 0;
+    padding-right: 104px;
+    top: -15px;
+    left: -445px;
+    &::before{
+      content: "";
+      width: 80px;
+      height: 1px;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: auto;
+    }
+  }
+}
+
+.surfboard-box__circle.active + .surfboard-box__content{
+  display: block;
 }
 
 .surfboard-box__circle{
@@ -688,10 +727,11 @@ header{
 }
 
 .surfboard-box__content{
+  display: none;
   position: absolute;
   top: -15px;
   left: 40px;
-  width: 359px;
+  width: 435px;
   font-weight: 800;
   font-size: 24px;
   line-height: 24px;
