@@ -317,6 +317,7 @@
   .holder-slider__info-item{
     min-height: auto;
     margin-bottom: 20px;
+    padding-left: 10px;
   }
 
   .holder-slider__info-title{
@@ -341,6 +342,20 @@
         padding-bottom: 0;
       }
     }
+  }
+
+  .quantity-button.quantity-up{
+    right: auto;
+    left: 35px;
+  }
+
+  .quantity-button.quantity-down{
+    right: auto;
+    left: 10px;
+  }
+
+  .sleep .holder-slider__descr{
+    background-position: right 10px;
   }
 
 }
@@ -452,6 +467,12 @@
   .slider-map .slick-current .slider-dots__content{
     width: 250px;
     padding: 28px 15px 0;
+  }
+
+  .holder-slider__descr .descr__head .holder__star-list{
+    position: static;
+    padding-right: 0;
+    margin-left: -15px ;
   }
 }
 
