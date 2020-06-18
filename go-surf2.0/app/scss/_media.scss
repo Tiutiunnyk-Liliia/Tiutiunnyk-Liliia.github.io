@@ -5,6 +5,10 @@
     }
   }
 
+  .surf-box__inner{
+    min-height: 650px;
+  }
+
   .header__title{
     font-size: 130px;
     line-height: 100px;
@@ -102,6 +106,103 @@
     right: 60px;
   }
 }
+@media (max-width: 1287px){
+  .slider-map .slick-list{
+    overflow: hidden;
+  }
+  .slider-dots__circle{
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 1250px){
+  .slider-map{
+    max-width: 1000px;
+    min-height: 515px;
+  }
+
+  .slider-map .slick-list{
+    min-height: 515px;
+  }
+
+  .slider-dots--1{
+    top: 266px;
+    .slider-dots__content{
+      transform: translateX(0);
+      &::before{
+        left: 0;
+      };
+    }
+  }
+  .slider-dots--2{
+    top: 232px;
+  }
+  .slider-dots--3{
+    top: 253px;
+  }
+  .slider-dots--4{
+    top: 390px;
+  }
+  .slider-dots--5{
+    top: 180px;
+  }
+  .slider-dots--6{
+    top: 440px;
+    left: -85px;
+  }
+  .slider-dots--7{
+    top: 312px;
+    left: -85px;
+  }
+  .slider-dots--8{
+    top: 397px;
+  }
+}
+
+@media (max-width: 1102px){
+  .slider-map{
+    background-image: none;
+    max-width: 100%;
+    min-height: 280px;
+  }
+
+  .slider-dots{
+    position: static;
+  }
+
+  .slider-dots__circle{
+    display: none;
+  }
+  .slider-dots__content{
+    display: block;
+    &::before{
+      display: none;
+    }
+  }
+
+  .slider-map{
+    .slick-list{
+      overflow: hidden;
+      min-height: 280px;
+    }
+    .slick-track{
+      min-height: 280px;
+    }
+  }
+
+  .slider-dots__content,
+  .slider-dots--8 .slider-dots__content{
+    transform: translateX(0);
+    width: 285px;
+    padding: 28px 31px 0 32px;
+  }
+
+  .slider-map .slick-current .slider-dots__content{
+    background-color: rgba(#ccc, 0.5);
+  }
+
+}
+
 
 
 @media (max-width: 1040px) {
@@ -183,7 +284,14 @@
   .dots-box__name{
     line-height: 18px;
   }
+
+  .surf__subtitle{
+    padding-right: 20px;
+  }
+
 }
+
+
 
 @media (max-width: 960px) {
   .slider-dotshead{
@@ -191,8 +299,43 @@
   }
 }
 
-@media (max-width: 767px) {
-  
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 720px) {
+  .title{
+    div{
+      font-size: 100px;
+      //padding-bottom: 80px;
+      padding-left: 10px ;
+      span{
+        padding-bottom: 80px;
+      }
+    }
+  }
+
+  .surf-slider .slider-arrows{
+    top: 20px;
+  }
+
+  .surf-slider{
+    padding-top: 65px;
+  }
+
+  .surf .holder{
+    padding: 70px 0 50px;
+  }
+}
+
+@media (max-width: 520px) {
+  .headline-left{
+    letter-spacing: 2.33333px;
+  }
+  .subtitle-head{
+    font-size: 32px;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 460px) {
@@ -224,6 +367,21 @@
     display: none;
   }
 
+}
 
 
+@media (max-width: 425px){
+  .slider-map .slider-dots__content,
+  .slider-map .slick-current .slider-dots__content{
+    width: 250px;
+    padding: 28px 15px 0;
+  }
+}
+
+@media (max-width: 374px){
+  .slider-map .slider-dots__content,
+  .slider-map .slick-current .slider-dots__content{
+    width: 200px;
+    padding: 28px 10px 0;
+  }
 }
